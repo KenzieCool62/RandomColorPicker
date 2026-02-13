@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title> Color Pallete Generator </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <script src="scripts.js" defer></script>
+    <body>
+        <header>    
+            <h1> Random Color Picker </h1>
+        </header>
+        <section>
+            <br>
+            <div id="outputContainer">
+                <div class="colorGroup">
+                    <div class="colorBlock">
+                    </div>
+                    <label class="colorDesc">
+                        rgb(255, 0, 0)
+                    </label>
+                </div>
+            </div>
+            <div id="inputContainer">
+                <br>
+                <label style="color: white;">Quantity: </label>
+                <input id="quantity"><br></br>
+                <button onclick="pick('random')">Pick!</button>
+                <button onclick="pick('shade')">Pick Shades (rec quantity: < 7)</button>
+            </div>
+        </section>
+        <footer>
+            <label style="padding: 15px;"> Copyright (c) 2026</label>
+        </footer>
+    </body>
+</html>
