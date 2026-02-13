@@ -27,7 +27,7 @@ section {
 #outputContainer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100vw;
     overflow-x: auto;
 
@@ -87,4 +87,5 @@ footer {
     background-color: rgb(63, 70, 89);
     color: white;
     padding: 10px;
+
 }
